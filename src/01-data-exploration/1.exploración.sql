@@ -39,7 +39,7 @@ GROUP BY
 	p.product_id, p.product_name
 ORDER BY 
 	cantidad_total DESC
--- LIMIT 10; -> Descomentar para limitar a los 10 productos más vendidos
+-- LIMIT 10 -> Descomentar para limitar a los 10 productos más vendidos
 ;
 
 -- 03. Calcula el total de ventas (en dinero) por categoría de producto.
